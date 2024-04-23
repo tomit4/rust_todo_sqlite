@@ -13,7 +13,7 @@ pub async fn list_todos(pool: &SqlitePool) -> anyhow::Result<()> {
     for rec in recs {
         println!(
             "- [{}] {}: {}",
-            if rec.completed { "✔" } else { " " },
+            if rec.completed { "" } else { " " },
             rec.id,
             &rec.title,
         );
