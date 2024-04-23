@@ -10,3 +10,9 @@ the shell after cloning this repo:
 ```sh
 cp env.sample .env && sqlx db create && sqlx migrate run
 ```
+
+**TODO:**
+
+- [ ] Add more fields to the Todos (i.e. timestamps, ordering features, etc.)
+- [ ] Implement an HTTP server that serves back the Todos as JSON
+- [ ] Implement an HTTP server that serves back the Todos as HTML
