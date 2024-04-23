@@ -81,5 +81,6 @@ async fn main() -> anyhow::Result<()>{
             list_todos(&pool).await?;
         }
     }
+
     Ok(())
 }
